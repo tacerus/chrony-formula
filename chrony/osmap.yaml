@@ -40,6 +40,19 @@ Arch:
   otherparams: [ 'rtconutc',
                  'rtcsync', ]
 
+Gentoo:
+  package: net-misc/chrony
+  service: chronyd
+  config: /etc/chrony/chrony.conf
+  ntpservers: [ '0.gentoo.pool.ntp.org',
+                '1.gentoo.pool.ntp.org',
+                '2.gentoo.pool.ntp.org',
+                '3.gentoo.pool.ntp.org', ]
+  options: iburst
+  driftfile: /var/lib/chrony/drift
+  otherparams: [ 'rtconutc',
+                 'rtcsync', ]
+
 Suse:
   ntpservers: [ '0.arch.opensuse.ntp.org',
                 '1.arch.opensuse.ntp.org',
