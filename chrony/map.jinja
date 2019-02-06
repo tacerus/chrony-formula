@@ -12,9 +12,11 @@
     base='chrony'
 ) %}
 
--{# Debian distros check /etc/default/rcS to determine UTC setting #}
--{% if grains['os_family'] == "Debian" %}
--  {% if salt['cmd.run']('grep UTC=no /etc/default/rcS', output_loglevel='quiet') %}
--    {% do chrony['otherparams'].remove('rtconutc') %}
--  {% endif %}
--{% endif %}
+{# Debian distros check /etc/default/rcS to determine UTC setting #}
+{% if grains['os_family'] == "Debian" %}
+  {% if salt['cmd.run']('grep UTC=no /etc/default/rcS', output_loglevel='quiet') %}
+     {%- if chrony['otherparams'] and 'rtconutc' in chrony['otherparams'] %}
+         {% do chrony['otherparams'].remove('rtconutc') %}
+     {%- endif %}
+  {% endif %}
+{% endif %}
