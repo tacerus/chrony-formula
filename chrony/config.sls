@@ -11,6 +11,7 @@ chrony_config:
     - defaults:
         slspath: {{ slspath|yaml_encode }}
     - user: root
+    - group: root
     - mode: 644
     - watch_in:
       - service: chrony
