@@ -1,0 +1,9 @@
+name: chrony
+os: Debian, Ubuntu, RedHat, Fedora, CentOS, Suse, openSUSE, Gentoo, Funtoo, Arch, Manjaro, Alpine
+os_family: Debian, RedHat, Suse, Gentoo, Arch, Alpine
+version: 0.2.0
+release: 1
+minimum_version: 2016.11
+summary: Chrony formula
+description: Formula to install, configure and run chrony
+top_level_dir: chrony
