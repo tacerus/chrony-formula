@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.0.0](https://github.com/saltstack-formulas/chrony-formula/compare/v0.2.1...v1.0.0) (2019-04-30)
+
+
+### Features
+
+* update chrony formula to new template ([8a05d0f](https://github.com/saltstack-formulas/chrony-formula/commit/8a05d0f))
+
+
+### BREAKING CHANGES
+
+* `chrony.removed` replaced by `.clean` states.
+
 ## [0.2.1](https://github.com/saltstack-formulas/chrony-formula/compare/v0.2.0...v0.2.1) (2019-04-29)
 
 
