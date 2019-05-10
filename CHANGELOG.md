@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.1.0](https://github.com/saltstack-formulas/chrony-formula/compare/v1.0.0...v1.1.0) (2019-05-10)
+
+
+### Features
+
+* fix default values ([a2a3aa7](https://github.com/saltstack-formulas/chrony-formula/commit/a2a3aa7))
+
 # [1.0.0](https://github.com/saltstack-formulas/chrony-formula/compare/v0.2.1...v1.0.0) (2019-04-30)
 
 
