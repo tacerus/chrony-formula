@@ -2,6 +2,27 @@
 Changelog
 =========
 
+`1.2.0 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.1.0...v1.2.0>`_ (2019-08-10)
+--------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* add pool option (\ `90cdeea <https://github.com/saltstack-formulas/chrony-formula/commit/90cdeea>`_\ )
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **kitchen+travis:** modify matrix to include ``develop`` platform (\ `6db3426 <https://github.com/saltstack-formulas/chrony-formula/commit/6db3426>`_\ )
+
+Features
+^^^^^^^^
+
+
+* **yamllint:** include for this repo and apply rules throughout (\ `f83a498 <https://github.com/saltstack-formulas/chrony-formula/commit/f83a498>`_\ )
+
 `1.1.0 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.0.0...v1.1.0>`_ (2019-05-10)
 --------------------------------------------------------------------------------------------------------
 
