@@ -7,6 +7,11 @@ chrony:
     - '1.centos.pool.ntp.org'
     - '2.arch.pool.ntp.org'
     - '3.gentoo.pool.ntp.org'
+  pool:
+    - '0.debian.pool.ntp.org'
+    - '1.centos.pool.ntp.org'
+    - '2.arch.pool.ntp.org'
+    - '3.gentoo.pool.ntp.org'
   allow:
     - '10/8'
     - '192.168/16'
