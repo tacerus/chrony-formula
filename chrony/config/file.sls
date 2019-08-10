@@ -13,7 +13,7 @@ include:
 chrony-config-file-file-managed:
   file.managed:
     - name: {{ chrony.config }}
-    - source: {{ files_switch(['chrony.conf', 'chrony.conf.jinja'],
+    - source: {{ files_switch(['chrony.conf.jinja'],
                               lookup='chrony-config-file-file-managed'
                  )
               }}
