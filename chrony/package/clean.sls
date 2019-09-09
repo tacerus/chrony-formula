@@ -11,6 +11,6 @@ include:
 
 chrony-package-clean-pkg-removed:
   pkg.removed:
-    - name: {{ chrony.pkg }}
+    - name: {{ chrony.package }}
     - require:
       - sls: {{ sls_config_clean }}
