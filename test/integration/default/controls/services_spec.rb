@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Overide by OS
 service_name =
   case os[:name]

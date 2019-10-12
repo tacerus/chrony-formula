@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Overide by OS
 keyfile = 'keyfile '
 driftfile = '/var/lib/chrony/'
