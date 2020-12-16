@@ -2,6 +2,61 @@
 Changelog
 =========
 
+`1.2.2 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.1...v1.2.2>`_ (2020-12-16)
+--------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **libtofs:** “files_switch” mess up the variable exported by “map.jinja” [skip ci] (\ `264151d <https://github.com/saltstack-formulas/chrony-formula/commit/264151d1cb51b524a96e352aaede74aa82e38197>`_\ )
+* **release.config.js:** use full commit hash in commit link [skip ci] (\ `9122f1a <https://github.com/saltstack-formulas/chrony-formula/commit/9122f1a4866337f8074f8ce167a6c02265b9cd28>`_\ )
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **gemfile:** restrict ``train`` gem version until upstream fix [skip ci] (\ `92fcb44 <https://github.com/saltstack-formulas/chrony-formula/commit/92fcb44337e8b6c10d545f2865531925c98bb045>`_\ )
+* **gemfile.lock:** add to repo with updated ``Gemfile`` [skip ci] (\ `c3d1b91 <https://github.com/saltstack-formulas/chrony-formula/commit/c3d1b917acc4a77c43cd364816360f94f581e13c>`_\ )
+* **gitlab-ci:** use GitLab CI as Travis CI replacement (\ `b9e269e <https://github.com/saltstack-formulas/chrony-formula/commit/b9e269e96564383f3a63e97867462e0a1e5192b8>`_\ )
+* **kitchen:** avoid using bootstrap for ``master`` instances [skip ci] (\ `28c7470 <https://github.com/saltstack-formulas/chrony-formula/commit/28c7470600a3f302b22ee4b448c9d7350e9b3e39>`_\ )
+* **kitchen:** use ``debian-10-master-py3`` instead of ``develop`` [skip ci] (\ `62a2819 <https://github.com/saltstack-formulas/chrony-formula/commit/62a2819b8df1637af754164cc9552aa71e4b2b09>`_\ )
+* **kitchen:** use ``develop`` image until ``master`` is ready (\ ``amazonlinux``\ ) [skip ci] (\ `5e6f085 <https://github.com/saltstack-formulas/chrony-formula/commit/5e6f085fd4cad85b6a3aecd92c90aa17acd534c9>`_\ )
+* **kitchen:** use ``saltimages`` Docker Hub where available [skip ci] (\ `cc33b93 <https://github.com/saltstack-formulas/chrony-formula/commit/cc33b93a58e1a889e6a6d758f53627c03fab39dd>`_\ )
+* **kitchen+travis:** remove ``master-py2-arch-base-latest`` [skip ci] (\ `85b8bc7 <https://github.com/saltstack-formulas/chrony-formula/commit/85b8bc7700cb4cce348209ae79a159f7bf8520f1>`_\ )
+* **kitchen+travis:** upgrade matrix after ``2019.2.2`` release [skip ci] (\ `b336538 <https://github.com/saltstack-formulas/chrony-formula/commit/b3365386aa71af4f6c596ab4225b2ad7b437739d>`_\ )
+* **pre-commit:** add to formula [skip ci] (\ `1d979af <https://github.com/saltstack-formulas/chrony-formula/commit/1d979af015f1517c060d4eeb5c43efe690c5f10e>`_\ )
+* **pre-commit:** enable/disable ``rstcheck`` as relevant [skip ci] (\ `3ecb741 <https://github.com/saltstack-formulas/chrony-formula/commit/3ecb7415ab42ab1c2843fd4ee080b67725ef3068>`_\ )
+* **pre-commit:** finalise ``rstcheck`` configuration [skip ci] (\ `f876619 <https://github.com/saltstack-formulas/chrony-formula/commit/f8766198760e616bdf24b5256744ca79de56ba5b>`_\ )
+* **travis:** add notifications => zulip [skip ci] (\ `de6cc9e <https://github.com/saltstack-formulas/chrony-formula/commit/de6cc9e23562ab4a3b054798e2f9de0074fdbf99>`_\ )
+* **travis:** apply changes from build config validation [skip ci] (\ `95928da <https://github.com/saltstack-formulas/chrony-formula/commit/95928da597a533f095901bab2ea7b84496ffd654>`_\ )
+* **travis:** opt-in to ``dpl v2`` to complete build config validation [skip ci] (\ `2e68bca <https://github.com/saltstack-formulas/chrony-formula/commit/2e68bcad916c026c1dbfdd26d60b4591d9eabbbe>`_\ )
+* **travis:** quote pathspecs used with ``git ls-files`` [skip ci] (\ `c426c62 <https://github.com/saltstack-formulas/chrony-formula/commit/c426c62301ae2d85c7efdc7d32a76832438312d3>`_\ )
+* **travis:** run ``shellcheck`` during lint job [skip ci] (\ `66a147d <https://github.com/saltstack-formulas/chrony-formula/commit/66a147df787b779233c755cbcff9711e94d2bc16>`_\ )
+* **travis:** update ``salt-lint`` config for ``v0.0.10`` [skip ci] (\ `3668973 <https://github.com/saltstack-formulas/chrony-formula/commit/3668973688a4a0f50c848e2f50ed310d029459f3>`_\ )
+* **travis:** use ``major.minor`` for ``semantic-release`` version [skip ci] (\ `2d2bf7a <https://github.com/saltstack-formulas/chrony-formula/commit/2d2bf7a8f718642116f96aaa84b8c90deeae8742>`_\ )
+* **travis:** use build config validation (beta) [skip ci] (\ `a21bf73 <https://github.com/saltstack-formulas/chrony-formula/commit/a21bf73c8d0f6f1a1cd179564e5721b6b6af493b>`_\ )
+* **workflows/commitlint:** add to repo [skip ci] (\ `de7860d <https://github.com/saltstack-formulas/chrony-formula/commit/de7860d74c1f19b24dcd4cc6dd31dc56a0941892>`_\ )
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **contributing:** remove to use org-level file instead [skip ci] (\ `eae8e87 <https://github.com/saltstack-formulas/chrony-formula/commit/eae8e87c8be8a5b6eac3bf890b79035a3c9e7b17>`_\ )
+* **readme:** update link to ``CONTRIBUTING`` [skip ci] (\ `16e6cb8 <https://github.com/saltstack-formulas/chrony-formula/commit/16e6cb8279b573632d0de9b7037c914d49f4255f>`_\ )
+
+Performance Improvements
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **travis:** improve ``salt-lint`` invocation [skip ci] (\ `5f0e77f <https://github.com/saltstack-formulas/chrony-formula/commit/5f0e77f93a8d5482c9634103231c19dfb1ee72f6>`_\ )
+
+Styles
+^^^^^^
+
+
+* **libtofs.jinja:** use Black-inspired Jinja formatting [skip ci] (\ `f43da51 <https://github.com/saltstack-formulas/chrony-formula/commit/f43da517a7c101b7fdd72c74246cdd80fffc4ac6>`_\ )
+
 `1.2.1 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.0...v1.2.1>`_ (2019-10-12)
 --------------------------------------------------------------------------------------------------------
 
