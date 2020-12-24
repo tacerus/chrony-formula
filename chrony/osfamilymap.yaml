@@ -50,9 +50,9 @@ RedHat:
 
 openSUSE:
   ntpservers:
-    - '0.arch.opensuse.ntp.org'
-    - '1.arch.opensuse.ntp.org'
-    - '2.arch.opensuse.ntp.org'
+    - '0.opensuse.pool.ntp.org'
+    - '1.opensuse.pool.ntp.org'
+    - '2.opensuse.pool.ntp.org'
     - '3.opensuse.pool.ntp.org'
   otherparams:
     - 'rtcsync'
