@@ -2,6 +2,22 @@
 Changelog
 =========
 
+`1.2.3 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.2...v1.2.3>`_ (2020-12-24)
+--------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **osfamilymap:** fix openSUSE NTP servers (\ `828e12f <https://github.com/saltstack-formulas/chrony-formula/commit/828e12f7b490090a80b2c3af4527e31b5b707991>`_\ )
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **commitlint:** ensure ``upstream/master`` uses main repo URL [skip ci] (\ `25bea74 <https://github.com/saltstack-formulas/chrony-formula/commit/25bea74bf0878abb54fea184dfdaebd2d2dd368f>`_\ )
+* **gitlab-ci:** add ``rubocop`` linter (with ``allow_failure``\ ) [skip ci] (\ `95e6ee3 <https://github.com/saltstack-formulas/chrony-formula/commit/95e6ee3e57d705830f886817fab95409a922a7ad>`_\ )
+
 `1.2.2 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.1...v1.2.2>`_ (2020-12-16)
 --------------------------------------------------------------------------------------------------------
 
