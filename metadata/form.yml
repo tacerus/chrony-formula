@@ -1,0 +1,39 @@
+chrony:
+  $type: namespace
+
+  ntpservers:
+    $type: edit-group
+    $minItems: 0
+    $prototype:
+      $type: text
+    $help: List of ntpservers
+    $optional: true
+    $default:
+      - '0.us.pool.ntp.org'
+      - '1.us.pool.ntp.org'
+      - '2.us.pool.ntp.org'
+      - '3.us.pool.ntp.org'
+
+  pool:
+    $type: edit-group
+    $minItems: 0
+    $prototype:
+      $type: text
+    $help: List of pools
+    $optional: true
+
+  allow:
+    $type: edit-group
+    $minItems: 0
+    $prototype:
+      $type: text
+    $help: List of allowed networks
+    $optional: true
+
+  otherparams:
+    $type: edit-group
+    $minItems: 0
+    $prototype:
+      $type: text
+    $help: chrony parameters like rtcsync
+    $optional: true
