@@ -2,9 +2,14 @@ chrony:
   $type: namespace
 
   service:
-    $name: 'chrony service name'
-    $type: text
-    $default: 'chronyd'
+    $name: 'chrony service'
+    $type: group
+
+    name:
+      $type: text
+      $name: 'chrony service name'
+      $default: 'chronyd'
+      $help: 'service name to start chrony'
 
   logdir:
     $name: 'chrony logdir location'
