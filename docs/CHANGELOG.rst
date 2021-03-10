@@ -2,6 +2,33 @@
 Changelog
 =========
 
+`1.2.4 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.3...v1.2.4>`_ (2021-03-10)
+--------------------------------------------------------------------------------------------------------
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **gemfile+lock:** use ``ssf`` customised ``kitchen-docker`` repo [skip ci] (\ `6174b14 <https://github.com/saltstack-formulas/chrony-formula/commit/6174b146864fdc25e53c046dc15a460f99fc7f24>`_\ )
+* **kitchen+ci:** use latest pre-salted images (after CVE) [skip ci] (\ `71fb3e1 <https://github.com/saltstack-formulas/chrony-formula/commit/71fb3e192723491a9c21391cb9ff8ca16dda77fd>`_\ )
+* **kitchen+gitlab-ci:** use latest pre-salted images [skip ci] (\ `34532e6 <https://github.com/saltstack-formulas/chrony-formula/commit/34532e632df9f6726f2d6365720407799bdfac85>`_\ )
+* **pre-commit:** update hook for ``rubocop`` [skip ci] (\ `bb42c1b <https://github.com/saltstack-formulas/chrony-formula/commit/bb42c1b823830276d96cf234218c7a171e28ff86>`_\ )
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **uyuni:** add metadata and form yaml files (\ `7a0dbdb <https://github.com/saltstack-formulas/chrony-formula/commit/7a0dbdba58094e50439d962f380ac8355c581bd4>`_\ )
+* **uyuni:** fix service name (\ `808d63b <https://github.com/saltstack-formulas/chrony-formula/commit/808d63b1204c9ed4173608dbf6099577d7587bd1>`_\ )
+* **uyuni:** fix yamllint issues (\ `f489cd0 <https://github.com/saltstack-formulas/chrony-formula/commit/f489cd0f2146e9b872a0ebe91dc3f62514b5adaa>`_\ )
+* **uyuni:** update form.yml with more options (\ `a6501ea <https://github.com/saltstack-formulas/chrony-formula/commit/a6501ea049f80b3aae5bbd2b0b3f8b22cc50cc82>`_\ )
+
+Tests
+^^^^^
+
+
+* **config_spec:** fix for Gentoo (\ `18039a9 <https://github.com/saltstack-formulas/chrony-formula/commit/18039a9aac451020879d4f3e594abf9a2559e9fd>`_\ )
+
 `1.2.3 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.2...v1.2.3>`_ (2020-12-24)
 --------------------------------------------------------------------------------------------------------
 
