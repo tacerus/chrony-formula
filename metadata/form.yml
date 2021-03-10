@@ -1,0 +1,70 @@
+---
+chrony:
+  $type: namespace
+
+  service:
+    $name: 'chrony service'
+    $type: group
+
+    name:
+      $type: text
+      $name: 'chrony service name'
+      $default: 'chronyd'
+      $help: 'service name to start chrony'
+
+  logdir:
+    $name: 'chrony logdir location'
+    $type: text
+    $default: '/var/log/chrony'
+
+  keyfile:
+    $name: 'chrony keyfile location'
+    $type: text
+    $default: '/etc/chrony.keys'
+
+  driftfile:
+    $name: 'chrony driftfile location'
+    $type: text
+    $default: '/var/lib/chrony/drift'
+
+  ntpservers:
+    $type: edit-group
+    $minItems: 0
+    $prototype:
+      $type: text
+    $help: List of ntpservers
+    $optional: true
+
+  pool:
+    $type: edit-group
+    $minItems: 0
+    $prototype:
+      $type: text
+    $help: List of pools
+    $optional: true
+
+  allow:
+    $type: edit-group
+    $minItems: 0
+    $prototype:
+      $type: text
+    $help: List of allowed networks
+    $optional: true
+
+  options:
+    $type: text
+    $name: chrony server options
+    default: iburst
+    $help: set the options chrony should use with the servers like iburst
+    $optional: true
+
+  otherparams:
+    $type: edit-group
+    $minItems: 0
+    $prototype:
+      $type: text
+    $help: chrony parameters like rtcsync
+    $default:
+      - 'makestep 1.0 3'
+      - 'rtcsync'
+    $optional: true

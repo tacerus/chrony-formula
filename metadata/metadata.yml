@@ -1,0 +1,4 @@
+---
+description:
+  Enable and configure chrony time daemon
+group: general_system_configuration
