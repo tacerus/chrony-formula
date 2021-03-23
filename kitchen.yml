@@ -312,6 +312,7 @@ suites:
       state_top:
         base:
           '*':
+            - chrony._mapdata
             - chrony
       pillars:
         top.sls:
