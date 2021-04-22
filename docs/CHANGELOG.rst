@@ -2,6 +2,21 @@
 Changelog
 =========
 
+`1.2.5 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.4...v1.2.5>`_ (2021-04-22)
+--------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* restart service after config change (\ `#36 <https://github.com/saltstack-formulas/chrony-formula/issues/36>`_\ ) (\ `20873d0 <https://github.com/saltstack-formulas/chrony-formula/commit/20873d02206843760d780d0e45d559e393d02dda>`_\ )
+
+Tests
+^^^^^
+
+
+* standardise use of ``share`` suite & ``_mapdata`` state [skip ci] (\ `e2d97f9 <https://github.com/saltstack-formulas/chrony-formula/commit/e2d97f9cc70a6dade6d9b508a2ac7fc63d1ca09b>`_\ )
+
 `1.2.4 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.3...v1.2.4>`_ (2021-03-10)
 --------------------------------------------------------------------------------------------------------
 
