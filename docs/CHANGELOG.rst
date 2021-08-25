@@ -2,6 +2,28 @@
 Changelog
 =========
 
+`1.3.0 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.5...v1.3.0>`_ (2021-08-25)
+--------------------------------------------------------------------------------------------------------
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **3003.1:** update inc. AlmaLinux, Rocky & ``rst-lint`` [skip ci] (\ `6dfae1f <https://github.com/saltstack-formulas/chrony-formula/commit/6dfae1fca173869cac1e734fea4204e0fd2d891a>`_\ )
+* **gemfile+lock:** use ``ssf`` customised ``inspec`` repo [skip ci] (\ `362fe72 <https://github.com/saltstack-formulas/chrony-formula/commit/362fe724143afcaef151916733312281a7feb2c6>`_\ )
+* **kitchen:** move ``provisioner`` block & update ``run_command`` [skip ci] (\ `f26c097 <https://github.com/saltstack-formulas/chrony-formula/commit/f26c09767eb974e1cea348ba9e92e2731d327674>`_\ )
+* **kitchen+ci:** update with latest ``3003.2`` pre-salted images [skip ci] (\ `adf30f6 <https://github.com/saltstack-formulas/chrony-formula/commit/adf30f627e32a21c348c6bda31b59a26b69b9bf2>`_\ )
+* add Debian 11 Bullseye & update ``yamllint`` configuration [skip ci] (\ `a0c5487 <https://github.com/saltstack-formulas/chrony-formula/commit/a0c5487e946b3e6f6bff379852926b74926ccaf1>`_\ )
+* **kitchen+gitlab:** adjust matrix to add ``3003`` [skip ci] (\ `66a465c <https://github.com/saltstack-formulas/chrony-formula/commit/66a465c3aa1715056aaad162f8d439c58a0f826b>`_\ )
+* **kitchen+gitlab:** remove Ubuntu 16.04 & Fedora 32 (EOL) [skip ci] (\ `5bbe1e8 <https://github.com/saltstack-formulas/chrony-formula/commit/5bbe1e858e4c930cead98a84e8e2de45b474b45d>`_\ )
+* add ``arch-master`` to matrix and update ``.travis.yml`` [skip ci] (\ `808d428 <https://github.com/saltstack-formulas/chrony-formula/commit/808d4289ebe3d6a3e2bf8cdbc7f3f433deae7fb2>`_\ )
+
+Features
+^^^^^^^^
+
+
+* **config:** allow differents options for server and pool (\ `7d680a1 <https://github.com/saltstack-formulas/chrony-formula/commit/7d680a1a60ab891d815f7fdbf0efafea64d4e7ee>`_\ ), closes `#27 <https://github.com/saltstack-formulas/chrony-formula/issues/27>`_
+
 `1.2.5 <https://github.com/saltstack-formulas/chrony-formula/compare/v1.2.4...v1.2.5>`_ (2021-04-22)
 --------------------------------------------------------------------------------------------------------
 
