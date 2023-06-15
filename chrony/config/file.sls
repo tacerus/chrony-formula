@@ -10,6 +10,15 @@
 include:
   - {{ sls_package_install }}
 
+{%- if chrony.confd is string %}
+chrony-config-conf.d:
+  file.directory:
+    - name: {{ chrony.confd }}
+    - clean: True
+    - require:
+      - sls: {{ sls_package_install }}
+{%- endif %}
+
 chrony-config-file-file-managed:
   file.managed:
     - name: {{ chrony.config }}
