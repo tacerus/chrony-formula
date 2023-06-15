@@ -6,6 +6,7 @@ chrony:
   service:
     name: chronyd
   config: /etc/chrony.conf
+  confd: false
   ntpservers: []
   options: iburst
   logdir: /var/log/chrony
