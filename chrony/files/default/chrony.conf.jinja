@@ -23,7 +23,9 @@ pool {{ pool }} {{ chrony.options }}
 {% endfor %}
 {% endif %}
 
+{%- if chrony.keyfile %}
 keyfile {{ chrony.keyfile }}
+{%- endif %}
 
 driftfile {{ chrony.driftfile }}
 
