@@ -6,10 +6,11 @@ chrony:
   service:
     name: chronyd
   config: /etc/chrony.conf
+  confd: false
   ntpservers: []
   options: iburst
   logdir: /var/log/chrony
-  keyfile: /etc/chrony.keys
+  keyfile: false
   driftfile: /var/lib/chrony/drift
   otherparams:
     - 'rtcsync'
